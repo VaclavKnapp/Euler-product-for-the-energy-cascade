@@ -147,8 +147,8 @@ $A_n^{(r)}$ are compressions of the realified Jacobian to a window of $2r+1$ she
 
 ```
 .
-├── run_sabra_model.py              # main driver: integration, verification, spectral analysis
-├── create_figures.py              # regenerates figA/figB/figC from results/
+├── run_sabra_model.py        # main driver: integration, verification, spectral analysis
+├── create_figures.py         # regenerates figA/figB/figC from results/
 ├── figures/                  # figA.pdf, figB.pdf, figC.pdf (paper-quality)
 ├── assets/                   # PNG figures for this README
 └── results/
@@ -174,8 +174,8 @@ pip install numpy matplotlib
 
 ```bash
 mkdir -p results figures
-python run_sabra.py     # integrates the model, runs checks C1–C4, writes results/
-python make_figs.py     # regenerates figA/figB/figC from results/
+python run_sabra_model.py     # integrates the model, runs checks C1–C4, writes results/
+python create_figures.py      # regenerates figA/figB/figC from results/
 ```
 
 `run_sabra_model.py` prints the verification checks and key exponents to stdout, and writes
