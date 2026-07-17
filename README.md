@@ -192,10 +192,5 @@ The four correctness checks from §7.1 of the paper are asserted programmaticall
 - **C4 — Spectrum**: inertial-range slope consistent with intermittent Kolmogorov scaling.
 
 ---
-## License
-
-Released under the MIT License. See [`LICENSE`](LICENSE) for details.
-
----
 
 *Questions or comments are welcome — please open an issue.*
