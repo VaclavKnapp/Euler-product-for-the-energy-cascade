@@ -120,8 +120,7 @@ The viscous Sabra shell model evolves complex amplitudes $u_n(t)$ with wavenumbe
 $k_n = k_0\mu^n$:
 
 $$
-\dot u_n = i\bigl(a\,k_{n+1}u_{n+2}\bar u_{n+1} + b\,k_n u_{n+1}\bar u_{n-1}
-- c\,k_{n-1}u_{n-1}u_{n-2}\bigr) - \nu k_n^2 u_n + f_n,
+\dot u_n = i\bigl(a\,k_{n+1}u_{n+2}\bar u_{n+1} + b\,k_n u_{n+1}\bar u_{n-1} - c\,k_{n-1}u_{n-1}u_{n-2}\bigr) - \nu k_n^2 u_n + f_n,
 $$
 
 with $a+b+c=0$ (energy conservation). The default configuration matches the paper:
