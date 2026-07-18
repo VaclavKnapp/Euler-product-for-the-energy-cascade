@@ -4,11 +4,6 @@
 
 *Václav Knapp*
 
-This repository contains the companion code and figures for the paper *An Euler
-product for the energy cascade: pole fronts, temperedness, and the limits of the
-$L$-function analogy* (July 2026). It reproduces every numerical result and all
-of the verification checks reported in the paper.
-
 ---
 
 ## Overview
